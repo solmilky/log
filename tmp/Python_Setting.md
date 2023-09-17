@@ -34,4 +34,29 @@
       1.  python python/sample_game_1.py（FizzBuzz問題）
       2.  返答：成功。長いため省略
 
+## 仮想環境（venv）
 
+### 設定方法
+1. 仮想環境のあるフォルダを作りたいフォルダ内で以下のコマンドを実行
+   1. python -m venv [仮想環境名]
+2. 1で作業したフォルダ内で、仮想環境をアクティベート
+   1. .\[仮想環境名]\Scripts\activate
+   2. コマンド実行後、パスの前に[仮想環境名]が表示されれば環境がアクティブになっている
+3. 仮想環境のフォルダ内でpip installを行えばOK
+4. 環境情報をテキストに起こす
+   1. pip freeze > environment.txt
+5. 出力した環境情報をインストールする時
+   1. pip install -r environment.txt
+
+### 設定した仮想環境と内容
+1. pokemon_quiz
+   1. flet
+      1. PythonでWEBアプリケーションを開発するためのライブラリ
+
+## Fletの使い方
+1. Fletライブラリをインストールする
+   1. pip install flet
+2. フォルダ内でpyファイルを作成、以下コードでの使い方
+3. Fletライブラリをインポートする
+   1. import glet as ft
+4. 
