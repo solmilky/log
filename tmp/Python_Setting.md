@@ -58,5 +58,5 @@
    1. pip install flet
 2. フォルダ内でpyファイルを作成、以下コードでの使い方
 3. Fletライブラリをインポートする
-   1. import glet as ft
+   1. import flet as ft
 4. 
